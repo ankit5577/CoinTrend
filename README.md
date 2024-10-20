@@ -13,7 +13,7 @@
 
 ## Demo
 
-![CoinTrend Demo](https://cointrend.pages.dev/)
+Visit the live demo: [https://cointrend.pages.dev/](https://cointrend.pages.dev/)
 
 **Technologies Used**
 
@@ -85,3 +85,8 @@ If the CoinGecko API rate limit is exceeded, the application can switch to displ
 **_Fullscreen Mode:_**
 Click the Fullscreen button to expand the chart to occupy the entire viewport.
 Press the Escape (ESC) key or click the Fullscreen button again to exit fullscreen mode.
+
+**Contact**
+
+Made with Love by Ankit;
+For any inquiries or feedback, please contact Visit the live demo: [ankit5577.dev@gmail.com](mailto:ankit5577.dev@gmail.com)
