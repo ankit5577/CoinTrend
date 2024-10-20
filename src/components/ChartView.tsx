@@ -111,10 +111,11 @@ export default function ({ coin }: IProps) {
         <div className="flex gap-4">
           <Button
             variant="ghost"
-            className="hover:bg-transparent hover:text-gray-700 p-0"
+            className="relative hover:bg-transparent hover:text-gray-700 p-0"
             onClick={toggleFullscreen}
             aria-label={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
           >
+            <span className="absolute top-3 right-0 inline-flex h-2 w-2 rounded-full bg-blue-500 opacity-75 animate-ping"></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -131,6 +132,7 @@ export default function ({ coin }: IProps) {
             </svg>
             Fullscreen
           </Button>
+
           <Button
             variant="ghost"
             className="hover:bg-transparent hover:text-gray-700 p-0"
