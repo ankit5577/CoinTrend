@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CoinData } from "@/types";
 import AnalysisTab from "./AnalysisTab";
-import ChartComponent from "./Chart";
+import ChartView from "./ChartView";
 import { Header } from "./Header";
 import StatisticsTab from "./StatisticTab";
 import SummaryTab from "./SummaryTab";
@@ -18,7 +18,7 @@ export default function CoinDetails({ coin }: { coin: CoinData }) {
     {
       value: "chart",
       label: "Chart",
-      content: <ChartComponent coin={coin} />,
+      content: <ChartView coin={coin} />,
       className: "rounded-tr-lg",
     },
     {
