@@ -88,5 +88,6 @@ Press the Escape (ESC) key or click the Fullscreen button again to exit fullscre
 
 **Contact**
 
-Made with Love by Ankit;
+Made with Love by `Ankit`;
+
 For any inquiries or feedback, please contact Visit the live demo: [ankit5577.dev@gmail.com](mailto:ankit5577.dev@gmail.com)
